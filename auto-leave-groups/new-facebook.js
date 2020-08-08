@@ -4,8 +4,16 @@
 * Please copy all the code to make sure that you will not get any errors
 * Before run this script, please switch to NEW Facebook and navigate to this link: https://www.facebook.com/groups
 */
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link https://www.facebook.com/groups
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
 
-let exceptGroupsThatHasWords = ['J2', 'Động khỉ']; // You can replace or add more words, which group's name exists one or more words in this array won't be affected by the process, each group's name must be put between with a single quote ('') and a comma (,) before
+let exceptGroupsThatHasWords = ['J2', 'Động khỉ']; 
+// You can replace or add more words, which group's name exists one or more words in this array won't be affected by the process, each group's name must be put between with a single quote ('') or double quotes ("") and a comma (,) before
+// Các nhóm chứa các từ trong ngoặc sẽ không bị ảnh hưởng trong quá trình tự động rời nhóm. Bạn có thể sửa các từ trong ngoặc hoặc thêm các từ khác, mỗi từ để trong dấu ngoặc đơn ('') hoặc ngoặc kép ("") và một dấu phẩy đằng trước. Ví dụ: ['J2', 'Động khỉ", "mèo", "khỉ"]
 
 // Don't modify code below
 (() => {

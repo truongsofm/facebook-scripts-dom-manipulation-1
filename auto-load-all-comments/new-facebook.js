@@ -6,6 +6,13 @@
 * Please switch to NEW Facebook and choose whatever post you want by click the time under the name of author
 */
 
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link bài viết bạn cần load toàn bộ bình luận bằng cách bấm vào thời gian đăng bài dưới tên tác giả
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // Don't modify code below
 (() => {
     console.log("\x1b[36m%s\x1b[0m", "Code by JayremntB, 2020");

@@ -4,10 +4,21 @@
 * Please copy all the code to make sure that you will not get any errors
 * Before run this script, please switch to NEW Facebook and navigate to this link: https://www.facebook.com/me/friends/
 */
-let mutualFriendsMin = 19; // Friends have less than this number will be removed
-let mutualFriendsMax = 5000; // Friends have more than this number will be removed
+
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link https://www.facebook.com/me/friends/
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
+let mutualFriendsMin = 5; // Friends have less than this number will be removed/Bạn bè có ít số bạn chung hơn giá trị này sẽ được xoá
+let mutualFriendsMax = 5000; // Friends have more than this number will be removed/Bạn bè có nhiều số bạn chung hơn giá trị này sẽ được xoá
 let inactiveFriends = true;
-let friendsExcept = ['JayremntB', 'Bảo']; // You can replace or add more friends who you don't want to be affected by the process, each friend's name must be put between with a single quote ('') and a comma (,) before
+let friendsExcept = ['JayremntB', 'Bảo']; 
+// You can replace or add more words, which friends' name exists one or more words in this array won't be affected by the process, each friends' name must be put between with a single quote ('') or double quotes ("") and a comma (,) before
+// Bạn bè chứa các từ trong ngoặc sẽ không bị ảnh hưởng trong quá trình tự động lọc. Bạn có thể sửa các từ trong ngoặc hoặc thêm các từ khác, mỗi từ để trong dấu ngoặc đơn ('') hoặc ngoặc kép ("") và một dấu phẩy đằng trước. Ví dụ: ['JayremntB', 'Bảo', "Văn", "Thị"]
+
 // Don't modify code below
 (() => {
 	console.log("\x1b[36m%s\x1b[0m", "Code by JayremntB, 2020");

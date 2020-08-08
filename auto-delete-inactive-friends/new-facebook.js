@@ -5,6 +5,13 @@
 * Before run this script, please switch to NEW Facebook and navigate to this link: https://www.facebook.com/me/friends
 */
 
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link https://www.facebook.com/me/friends
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // Don't modify code below
 (() => {
 	console.log("\x1b[36m%s\x1b[0m", "Code by JayremntB, 2020");

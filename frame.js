@@ -1,5 +1,5 @@
-let timePerAction = 1000;
-let timeToLoadPage = 3000;
+let timePerAction = _TIME_IN_MILLISECONDS_;
+let timeToLoadPage = _TIME_IN_MILLISECONDS_;
 
 (() => {
 	console.log("Code by JayremntB, 2020");

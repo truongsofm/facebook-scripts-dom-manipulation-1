@@ -5,9 +5,19 @@
 * Before run this script, please switch to OLD Facebook and navigate to this link: https://www.facebook.com/messages/
 */
 
+/*
+* Yêu cầu: Facebook bản cũ
+* Chuyển sang Facebook bản cũ, điều hướng tới link https://www.facebook.com/messages/
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // You can change the delay time or not (in milliseconds, 1 s = 1000 ms)
 // REMEMBER: the longer the delay time you set, the bigger your chance of not getting Facebook Checkpoint
-let timePerAction = 1000;
+
+// Bạn có thể sửa lại thời gian nếu muốn, tính theo milliseconds (1 s = 1000 ms)
+// Để càng lâu càng khó ăn Checkpoint
+let timePerAction = 1000; // time per action/ thời gian cách nhau mỗi lần
 let friendsExcept = ['JayremntB', 'Bảo']; // You can replace or add more friends who you don't want to be affected by the process, each friend's name must be put between with a single quote ('') and a comma (,) before
 
 // Don't modify code below

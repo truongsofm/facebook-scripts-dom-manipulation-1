@@ -2,12 +2,22 @@
 * Code by JayremntB, 2020
 * Requirement: New Facebook 
 * Please copy all the code to make sure that you will not get any errors
-* BEFORE YOU RUN CODE, INSPECT ANY LIKE BUTTON YOU SEE FIRST, THEN THIS CODE WILL RUN SUCCESSFULLY
 * Please switch to NEW Facebook and navigate to one post of an individual/group/...
 */
+
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới bài viết bạn cần share
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // You can change the delay time or not (in milliseconds, 1 s = 1000 ms)
 // REMEMBER: the longer the delay time you set, the bigger your chance of not getting Facebook Checkpoint
-let timePerAction = 3000;
+
+// Bạn có thể sửa lại thời gian nếu muốn, tính theo milliseconds (1 s = 1000 ms)
+// Để càng lâu càng khó ăn Checkpoint
+let timePerAction = 3000; // time per action/ thời gian cách nhau mỗi lần
 let shareTimes = 500;
 
 // Don't modify code below

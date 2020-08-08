@@ -5,9 +5,19 @@
 * Before run this script, please switch to NEW Facebook and navigate to this link: https://www.facebook.com/me/
 */
 
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link https://www.facebook.com/me/
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // You can change the delay time or not (in milliseconds, 1 s = 1000 ms)
 // REMEMBER: the longer the delay time you set, the bigger your chance of not getting Facebook Checkpoint
-let timePerAction = 1000;
+
+// Bạn có thể sửa lại thời gian nếu muốn, tính theo milliseconds (1 s = 1000 ms)
+// Để càng lâu càng khó ăn Checkpoint
+let timePerAction = 1000; // time per action/ thời gian cách nhau mỗi lần
 let privacy = 5; // Choose number, Public - 1/Friends of Friends - 2/Friends - 3/Only me - 5/ Close friends - 7
 let postIndex = 1; // If the script error in one post, change this to that post's number
 

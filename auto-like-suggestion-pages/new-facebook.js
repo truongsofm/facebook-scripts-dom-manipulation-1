@@ -5,9 +5,20 @@
 * BEFORE YOU RUN CODE, INSPECT ANY LIKE BUTTON YOU SEE FIRST, THEN THIS CODE WILL RUN SUCCESSFULLY
 * Please switch to NEW Facebook and navigate to this link: https://www.facebook.com/pages/?category=top
 */
+
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link https://www.facebook.com/pages/?category=top
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // You can change the delay time or not (in milliseconds, 1 s = 1000 ms)
 // REMEMBER: the longer the delay time you set, the bigger your chance of not getting Facebook Checkpoint
-let timePerAction = 2000;
+
+// Bạn có thể sửa lại thời gian nếu muốn, tính theo milliseconds (1 s = 1000 ms)
+// Để càng lâu càng khó ăn Checkpoint
+let timePerAction = 2000; // time per action/ thời gian cách nhau mỗi lần
 
 // Don't modify code below
 (() => {

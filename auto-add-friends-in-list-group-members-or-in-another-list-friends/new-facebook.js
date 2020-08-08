@@ -6,8 +6,20 @@
 * Example: https://www.facebook.com/marcel/friends (account) & https://www.facebook.com/groups/dongkhiit/members (group)
 */
 
-// You can change time delay of these variables below or not (in milliseconds, 1 s = 1000 ms)
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản mới, vào danh sách bạn bè của một tài khoản/ danh sách thành viên của một nhóm 
+* Ví dụ: https://www.facebook.com/marcel/friends (tài khoản)
+* Hoặc : https://www.facebook.com/groups/dongkhiit/members (nhóm)
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
+// You can change the delay time or not (in milliseconds, 1 s = 1000 ms)
 // REMEMBER: the longer the delay time you set, the bigger your chance of not getting Facebook Checkpoint
+
+// Bạn có thể sửa lại thời gian nếu muốn, tính theo milliseconds (1 s = 1000 ms)
+// Để càng lâu càng khó ăn Checkpoint
 let timePerAction = 1000;
 let totalFriendRequestsSent = 1000; // the number of users you want to send friend requests
 

@@ -5,9 +5,20 @@
 * BEFORE YOU RUN CODE, INSPECT ANY LIKE BUTTON YOU SEE FIRST, THEN THIS CODE WILL RUN SUCCESSFULLY
 * Please switch to NEW Facebook and navigate to one's profile/ one page/ one group that has available Share buttons
 */
+
+/*
+* Yêu cầu: Facebook bản mới
+* Chuyển sang Facebook bản MỚI, điều hướng tới link của người/nhóm bạn cần share toàn bộ bài viết
+* Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
+* Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
+*/
+
 // You can change the delay time or not (in milliseconds, 1 s = 1000 ms)
 // REMEMBER: the longer the delay time you set, the bigger your chance of not getting Facebook Checkpoint
-let timePerAction = 1000;
+
+// Bạn có thể sửa lại thời gian nếu muốn, tính theo milliseconds (1 s = 1000 ms)
+// Để càng lâu càng khó ăn Checkpoint
+let timePerAction = 1000; // time per action/ thời gian cách nhau mỗi lần
 let postIndex = 0; // If the script error in one post, change this to that post
 
 // Don't modify code below
@@ -32,7 +43,7 @@ let postIndex = 0; // If the script error in one post, change this to that post
 				document.getElementsByClassName('kr520xx4 pedkr2u6 ms05siws pnx7fd3z b7h9ocf4 pmk7jnqg j9ispegn k4urcfbm')[0].firstChild.firstChild.firstChild.click();
 				console.log(`Share post ${postIndex ++} successfully!`);
 				setTimeout(clickShareButton, timePerAction);
-			}, 1000);
+			}, 1500);
 		}, 1000);
 	}, 0);
 })();
