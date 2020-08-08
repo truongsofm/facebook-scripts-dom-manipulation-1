@@ -32,5 +32,5 @@ let timeToLoadPage = _TIME_IN_MILLISECONDS_;
 			console.log(`  ${sthHasName} successfully!`);
 			setTimeout(handleNextSubThing, timePerAction);
 		}, 0);
-}, 2000);
+	}, 2000);
 })();

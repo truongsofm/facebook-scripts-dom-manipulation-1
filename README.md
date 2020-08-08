@@ -1,6 +1,7 @@
+![Facebook-Scripts-DOM-Manipulation](https://i.ibb.co/hHhXkhk/B-n-sao-c-a-Facebook-Scripts-DOM-Manipulation.png)
 # Facebook-Scripts-DOM-Manipulation
 
-This repository contains many scripts with no Access Token needed for Facebook users by directly manipulating the DOM.
+_This repository contains many scripts with no Access Token needed for Facebook users by directly manipulating the DOM._
 
 ## Installation
 
@@ -30,6 +31,6 @@ Really happy to accept and review pull requests for new functionality.
 
 ## Checkpoint Issues
 
-While using these scripts, totally sometimes you will get a Facebook Checkpoint if rapidly perform so many actions.
+While using these scripts, sometimes your Facebook account may get Checkpoint due to rapid actions.
 
-I will not responsible for any checkpoint issues.
+I will not take responsibility for that situation, use it at your own risks.
