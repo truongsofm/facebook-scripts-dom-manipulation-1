@@ -1,11 +1,11 @@
 /*
 * Code by JayremntB, 2020
-* Requirement: New Facebook 
+* Requirement: New Facebook, English/Vietnamese version
 * Please copy all the code to make sure that you will not get any errors
 * Before run this script, please switch to NEW Facebook and navigate to this link: https://www.facebook.com/groups
 */
 /*
-* Yêu cầu: Facebook bản mới
+* Yêu cầu: Facebook bản mới, bản tiếng Việt/tiếng Anh
 * Chuyển sang Facebook bản MỚI, điều hướng tới link https://www.facebook.com/groups
 * Copy hết code, mở DevTools Console bằng cách bấm chuột phải, chọn Inspect, chọn Console
 * Dán code vào khoảng trống, sửa các thông số cần thiết bên dưới, bấm Enter
